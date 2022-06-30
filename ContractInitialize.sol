@@ -80,19 +80,5 @@ contract SmartChefInitializable2 is Ownable, ReentrancyGuard {
         emit NewPoolLimit(poolUserLimit);
     }
 
-    /*
-     * @notice Update reward per block
-     * @dev Only callable by owner.
-     * @param _rewardPerBlock: the reward per block
-     */
-    
-
-    /**
-     * @notice It allows the admin to update profile and thresholdPoints' requirement.
-     * @dev This function is only callable by owner.
-     * @param _isRequested: the profile is requested
-     * @param _thresholdPoints: the threshold points
-     */
-  
    
     }
